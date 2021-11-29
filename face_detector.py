@@ -1,5 +1,6 @@
 import cv2
 #Lưu ý để dưới phần hộp chạy: pip install opencv-python
+
 cap = cv2.VideoCapture(0)   
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
